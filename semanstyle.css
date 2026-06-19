@@ -5,15 +5,17 @@
    ========================================================================== 
 */
     :root {
-      --bg: #0f172a;
-      --text: #f1f5f9;
-      --primary: #2dd4bf;
-      --primary-hover: #5eead4;
-      --accent: #fbbf24;
-      --muted: #94a3b8;
-      --border: #334155;
-      --bg-alt: #1e293b;
-      --code-bg: #1e293b;
+    
+--bg: #ffffff;
+  --text: #1e293b;
+  --primary: #0f766e;
+  --primary-hover: #115e59;
+  --accent: #f59e0b;
+  --muted: #64748b;
+  --border: #cbd5e1;
+  --bg-alt: #f8fafc;
+  --code-bg: #f1f5f9;
+
     }
 /* Support du Mode Sombre Automatique selon le système */
 @media (prefers-color-scheme: dark) {
@@ -21,15 +23,15 @@
 
 
     :root {
-      --bg: #ffffff;
-      --text: #1e293b;
-      --primary: #0f766e;
-      --primary-hover: #115e59;
-      --accent: #f59e0b;
-      --muted: #64748b;
-      --border: #cbd5e1;
-      --bg-alt: #f8fafc;
-      --code-bg: #f1f5f9;
+        --bg: #0f172a;
+          --text: #f1f5f9;
+          --primary: #2dd4bf;
+          --primary-hover: #5eead4;
+          --accent: #fbbf24;
+          --muted: #94a3b8;
+          --border: #334155;
+          --bg-alt: #1e293b;
+          --code-bg: #1e293b;
     }
 }
 
