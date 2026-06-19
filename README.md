@@ -7,22 +7,24 @@ Ce dépôt sert de modèle de départ. Il contient déjà un fichier de style un
 ---
 
 ## 🎯 Objectifs Pédagogiques
-* Comprendre et concevoir l'architecture globale d'une page web.
-* Utiliser les balises sémantiques à bon escient (`<main>`, `<article>`, `<nav>`, `<aside>`, etc.).
-* Lier un formulaire fonctionnel et accessible sans tricher.
-* Valider son code avec le validateur W3C et l'inspecter via les **DevTools** du navigateur.
+
+- Comprendre et concevoir l'architecture globale d'une page web.
+- Utiliser les balises sémantiques à bon escient (`<main>`, `<article>`, `<nav>`, `<aside>`, etc.).
+- Lier un formulaire fonctionnel et accessible sans tricher.
+- Valider son code avec le validateur W3C et l'inspecter via les **DevTools** du navigateur.
 
 ---
 
 ## ⚠️ La Règle du Jeu : Le Défi "Classless"
 
-Pour ce projet, **vous n'avez pas le droit d'écrire de CSS, ni d'utiliser l'attribut `class` ou `id` à des fins de style.** 
+Pour ce projet, **vous n'avez pas le droit d'écrire de CSS, ni d'utiliser l'attribut `class` ou `id` à des fins de style.**
 
-Le fichier `semanstyle.css` fourni est un fichier de style *classless*. Cela signifie qu'il applique un design moderne et professionnel **uniquement si vous utilisez la bonne balise HTML au bon endroit**. 
-* Si votre structure HTML est parfaite, votre site sera automatiquement magnifique (mode sombre inclus !).
-* Si vous utilisez des `<div>` ou des `<span>` partout à la place des balises sémantiques, votre page restera plate, brute et sans mise en page. 
+Le fichier `semanstyle.css` fourni est un fichier de style _classless_. Cela signifie qu'il applique un design moderne et professionnel **uniquement si vous utilisez la bonne balise HTML au bon endroit**.
 
-*Votre code HTML doit parler de lui-même !*
+- Si votre structure HTML est parfaite, votre site sera automatiquement magnifique (mode sombre inclus !).
+- Si vous utilisez des `<div>` ou des `<span>` partout à la place des balises sémantiques, votre page restera plate, brute et sans mise en page.
+
+_Votre code HTML doit parler de lui-même !_
 
 ---
 
@@ -31,12 +33,15 @@ Le fichier `semanstyle.css` fourni est un fichier de style *classless*. Cela sig
 1. **Forkez** ou clonez ce dépôt sur votre machine.
 2. Créez un fichier `index.html` à la racine du projet si ce n'est pas déjà fait.
 3. Liez le fichier CSS dans le `<head>` de votre document avec la ligne suivante :
+
 ```html
-   <link rel="stylesheet" href="semanstyle.css">
+<link rel="stylesheet" href="semanstyle.css" />
 ```
+
 4. Commencez à structurer votre contenu selon les spécifications de votre livrable
 
 ## 📋 Critères de Validation & Livrables
+
 Votre projet sera évalué sur la qualité de sa structure, et non sur le design (puisque le CSS est automatisé). Voici votre checklist de validation :
 
 1. Structure Globale
@@ -61,3 +66,5 @@ Votre projet sera évalué sur la qualité de sa structure, et non sur le design
 
 🚀 Bon code à tous !
 Ouvrez vos DevTools, inspectez votre code en temps réel et découvrez la puissance d'un HTML bien pensé.
+
+https://dash.cloudflare.com/40afef91de2960a87d82eb199cfd81bb/workers-and-pages
